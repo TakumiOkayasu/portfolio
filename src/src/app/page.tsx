@@ -1,6 +1,8 @@
+import style from "./page.module.css";
+
 export default function Home() {
   return (
-    <main className="main">
+    <main className={style.container}>
       <p>name : Takumi OKAYASU</p>
       <p>birthday : 1997/03/06</p>
       <p>Language</p>
