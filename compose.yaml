@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: app
+    container_name: portfolio-app
     build:
       context: .
     tty: true
