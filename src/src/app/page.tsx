@@ -1,4 +1,5 @@
 import style from "./page.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,6 +15,12 @@ export default function Home() {
         <li>VB.NET</li>
         <li>TypeScript</li>
       </ul>
+      <Image
+        src="/backgnd.jpg"
+        alt={"background"}
+        layout="fill"
+        objectFit="cover"
+      />
     </main>
   );
 }
